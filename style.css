@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('fonts/NetflixSans.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Netflix Sans', sans-serif;
+}
+
+:root {
+  --primary-color: #e50914;
+  --btn-hover-color: #f40612;
+  --btn-active-color: #bb0a12;
+  --section-border-color: #222;
+}
